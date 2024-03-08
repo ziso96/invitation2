@@ -1,0 +1,169 @@
+/*
+Made by: Z!SO
+Project name: invitation
+For: AniFan.AZ
+ */
+body {
+    background: url(img/bg.jpg) fixed no-repeat !important;
+    background-size: 100% 100% !important;
+    padding: 50px;
+}
+p {
+    font-family: system-ui;
+    font-size: 18px;
+    margin: 3px;
+    text-shadow: 2px 2px 2px white;
+    margin-right: 40px;
+}
+.container {
+    background-image: url("img/AniFan-white.png");
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
+    width: 100%;
+    display: flex;
+    /*min-height: 500px;*/
+    background-color: #ffffff80;
+    padding: 10px;
+    /*margin: 20px auto;*/
+    transform: translateY(6%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px #00ffe75c
+}
+.left_bar {
+    float: left;
+    width: calc(20% - 10px);
+    display: flex;
+    /*height: 480px;*/
+    /*background-color: yellow;*/
+    margin: 0 10px 0 0;
+    padding: 10px;
+}
+.right_bar {
+    float: left;
+    width: calc(80% - 40px);
+    display: flex;
+    /*height: 480px;*/
+    /*background-color: green;*/
+    margin: 0;
+    padding: 10px;
+}
+.right_bar img {
+    position: absolute;
+    top: -80px;
+    right: 20px;
+    width: 300px;
+    height: auto;
+    margin: 0;
+}
+.left_bar img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 0px 10px;
+}
+
+.center {
+    position: absolute;
+    width: 70%;
+    margin: 10px 0 0 15px;
+}
+.socials {
+    width: 70%;
+    position: absolute;
+    bottom: 30px;
+    margin: 0 25px;
+    zoom: 70%;
+}
+
+.social_ytb {
+    float: left;
+    background-image: url(img/socials.png);
+    background-repeat: no-repeat;
+    background-position: -14px -12px;
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+}
+.social_fb {
+    float: left;
+    background-image: url(img/socials.png);
+    background-repeat: no-repeat;
+    background-position: -58px -12px;
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+}
+.social_insta {
+    float: left;
+    background-image: url(img/socials.png);
+    background-repeat: no-repeat;
+    background-position: -102px -12px;
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+}
+.social_discord {
+    float: left;
+    background-image: url(img/socials.png);
+    background-repeat: no-repeat;
+    background-position: -145px -12px;
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+}
+.social_tiktok {
+    float: left;
+    background-image: url(img/socials.png);
+    background-repeat: no-repeat;
+    background-position: -189px -12px;
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+}
+
+.button {
+    background-color: #04aa6d80;
+    /*background-color: ##f44336; red*/
+    /*background-color: #555555; black*/
+    /*background-color: #008CBA; blue*/
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #04aa6d;
+}
+.button:hover {
+    background-color: #04aa6d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #fff inset;
+}
+@media print
+{
+    .no-print, .no-print *
+    {
+        visibility: hidden;
+    }
+    @page {
+        margin: 0;
+    }
+    body {
+        background: url(img/bg.jpg) fixed no-repeat !important;
+        background-size: 83% 70% !important;
+        padding: 50px;
+    }
+}
